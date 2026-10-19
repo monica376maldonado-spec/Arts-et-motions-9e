@@ -9,6 +9,11 @@ import {
   CombineSentenceItem 
 } from '../types';
 
+import artDetournementImg from '../assets/images/art_detournement_museum_1792439136141.jpg';
+import heroAtelierImg from '../assets/images/hero_atelier_art_bd_1792439136047.jpg';
+import versaillesImg from '../assets/images/versailles_patrimoine_art_1792439136289.jpg';
+import nuitMuseesImg from '../assets/images/nuit_des_musees_gallery_1792439136703.jpg';
+
 // ==========================================
 // PARTIE 1 : COMPRÉHENSION ÉCRITE
 // ==========================================
@@ -614,7 +619,7 @@ export const realArtworksGallery = [
     title: "Zep & Les Beaux-Arts de Lille",
     subtitle: "Quand Titeuf réveille les chefs-d'œuvre classiques",
     author: "Zep (Philippe Chappuis)",
-    imageSrc: "/src/assets/images/art_detournement_museum_1792439136141.jpg",
+    imageSrc: artDetournementImg,
     description: "Le créateur de Titeuf a investi le Palais des Beaux-Arts pour insérer ses personnages espiègles au cœur de toiles flamandes et de la Renaissance. Un détournement artistique bienveillant conçu pour désacraliser les musées et donner envie aux jeunes d'observer les chefs-d'œuvre avec curiosité.",
     examLink: "Document central de la Partie 1 (Compréhension écrite)."
   },
@@ -622,7 +627,7 @@ export const realArtworksGallery = [
     title: "L'Art et Le Chat",
     subtitle: "Philippe Geluck rend hommage aux géants de la peinture",
     author: "Philippe Geluck",
-    imageSrc: "/src/assets/images/hero_atelier_art_bd_1792439136047.jpg",
+    imageSrc: heroAtelierImg,
     description: "Une rétrospective majeure où Le Chat de Geluck dialogue avec des toiles inspirées de Keith Haring, Andy Warhol, Picasso ou Munch. L'artiste belge utilise son félin philosophe et plein d'autodérision pour rendre l'art moderne et classique accessible au plus grand nombre.",
     examLink: "Cité dans l'Activité 1.2 (Philippe Geluck a présenté une exposition à Paris)."
   },
@@ -630,7 +635,7 @@ export const realArtworksGallery = [
     title: "Jeff Koons à Versailles",
     subtitle: "Le choc entre Pop Art contemporain et patrimoine royal",
     author: "Jeff Koons (Château de Versailles)",
-    imageSrc: "/src/assets/images/versailles_patrimoine_art_1792439136289.jpg",
+    imageSrc: versaillesImg,
     description: "En installant des homards géants gonflables et des fleurs monumentales dans les salons baroques du Roi-Soleil, l'artiste a déclenché une vague de protestations de détracteurs criant au scandale, tandis que d'autres y voyaient la suite logique de Versailles comme grand laboratoire de l'avant-garde.",
     examLink: "Support audio de la Partie 2 (Document 1 : scandale, détracteurs, préserver le patrimoine)."
   },
@@ -638,7 +643,7 @@ export const realArtworksGallery = [
     title: "La Nuit des Musées & Orsay",
     subtitle: "L'immersion nocturne et l'émotion face à Van Gogh",
     author: "Vincent Van Gogh (Musée d'Orsay, Paris)",
-    imageSrc: "/src/assets/images/nuit_des_musees_gallery_1792439136703.jpg",
+    imageSrc: nuitMuseesImg,
     description: "Un événement européen festif et gratuit qui métamorphose les galeries en espaces vivants avec musique et lumières douces. Le modèle d'examen de Camille s'en inspire pour décrire son coup de cœur devant « La Nuit étoilée sur le Rhône » peinte en plein air par Van Gogh.",
     examLink: "Support audio Document 2 et sujet modèle rédigé (Activité 3.3)."
   }
